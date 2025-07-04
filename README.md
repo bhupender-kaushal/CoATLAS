@@ -3,6 +3,8 @@ Official repository for "CoATLAS: A generalisable Self-Supervised framework usin
 Mechanism for Robust Vessel Segmentation Across Domains"
 ![Image of The Proposed method](fig/allnew_fig.png)
 
+*Fig 1: Overview of the proposed method*
+
 
 ## Requirements
   * OS : Ubuntu
@@ -25,7 +27,7 @@ python3 main.py -p train -c config/train.json
 ## Test
 
 ```
-eval python3 main.py -p test -c config/test.json
+python3 main.py -p test -c config/test.json
 ```
 
 ## Pre-trained Models
