@@ -13,6 +13,14 @@ Mechanism for Robust Vessel Segmentation Across Domains"
 
 
 
+<div align="center">
+  <img src="fig/CBA_Block.png" width="80%" alt="CoATLAS Framework" style="border:1px solid black;">
+  <p>The Attention Block(RAB)</p>
+</div>
+
+
+
+
 ## Requirements
   * OS : Ubuntu
   * Python >= 3.9
