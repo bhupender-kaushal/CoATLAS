@@ -67,6 +67,7 @@ Pre-trained models for evaluation will be available soon!
 } 
 ``` -->
 
+## Thankful
 We acknowledge the use of code from:
 
 *   **NVIDIA SPADE**: [[GitHub](https://github.com/NVlabs/SPADE)]
