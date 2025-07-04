@@ -58,14 +58,14 @@ Pre-trained models for evaluation will be available soon!
 
 
 ## 🤝Citation
-```
-<!-- @article{your_citation,
+<!-- ```
+ @article{your_citation,
   title={CoATLAS: A generalisable Self-Supervised framework using Triple Attention Mechanism for Robust Vessel Segmentation Across Domains},
   author={Author, A. and Author, B.},
   journal={Journal Name},
   year={2024}
-} -->
-```
+} 
+``` -->
 
 We acknowledge the use of code from:
 
