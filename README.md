@@ -2,7 +2,9 @@
 Official repository for "CoATLAS: A generalisable Self-Supervised framework using Triple Attention
 Mechanism for Robust Vessel Segmentation Across Domains"
 
+```
 *Fig 1: Overview of the proposed method*
+```
 ```(fig/allnew_fig.png)
 ```
 
