@@ -4,7 +4,7 @@ Mechanism for Robust Vessel Segmentation Across Domains"
 
 
 ## Overview of the proposed method*
-```
+```html
 <div align="center">
   <img src="fig/allnew_fig.png" width="80%" alt="CoATLAS Framework" style="border:1px solid black;">
   <p>Overview of the CoATLAS Framework</p>
