@@ -56,7 +56,9 @@ python3 main.py -p test -c config/test.json
 
 Pre-trained models for evaluation will be available soon!
 
-## Citations 🙏
+
+## 🤝Citation
+```
 
 ```
 <!-- @article{your_citation,
