@@ -1,73 +1,76 @@
-# CoATLAS
-Official repository for "CoATLAS: A generalisable Self-Supervised framework using Triple Attention
-Mechanism for Robust Vessel Segmentation Across Domains"
+# CoATLAS 🚀
 
+Official repository for "CoATLAS: A generalisable Self-Supervised framework using Triple Attention Mechanism for Robust Vessel Segmentation Across Domains".
 
-## Overview of the proposed method*
+## Overview 💡
 
 <div align="center">
   <img src="fig/allnew_fig.png" width="80%" alt="CoATLAS Framework" style="border:1px solid black;">
-  <p>Overview of the CoATLAS Framework</p>
+  <p>CoATLAS Framework Overview</p>
 </div>
-
-
-
 
 <div align="center">
   <img src="fig/CBA_Block.png" width="80%" alt="CoATLAS Framework" style="border:1px solid black;">
-  <p>The Attention Block(RAB)</p>
+  <p>Triple Attention Block (TAB)</p>
 </div>
 
+## Tech Stack ⚙️
 
+*   **OS**: Ubuntu 🐧
+*   **Python**: >= 3.9 🐍
+*   **PyTorch**: >= 1.12.1 🔥
 
+## Setup 🛠️
 
-## Requirements
-  * OS : Ubuntu
-  * Python >= 3.9
-  * PyTorch >= 1.12.1
+Create a conda environment:
 
-## Setup Environment
-*Create a conda environment and then do pip install -r requirements.txt*
-
-
-
-
-## Data
-In our experiments, we used the publicly available datasets 
-
-XCAD, available [[here](https://www.dropbox.com/scl/fi/mvstwdgxo0hfk678x94d4/XCAD.zip?rlkey=qdztml0gzfzoc0t5d16k71u76&e=1&dl=0)]
-
-DRIVE, available [[here](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction)]
-
-CHASEDB1, available [[here](https://www.kaggle.com/datasets/khoongweihao/chasedb1)]
-
-30 XCA, available [[here](https://github.com/Binjie-Qin/SVS-net)]
-
-134 XCA, available [[here](https://www.mdpi.com/2076-3417/9/24/5507)]
-
-
-
-## Training
+```bash
+conda create -n coatlas python=3.9
+conda activate coatlas
+pip install -r requirements.txt
 ```
+
+## Data Resources 💾
+
+Datasets used in our experiments:
+
+*   **XCAD**: [[Link](https://www.dropbox.com/scl/fi/mvstwdgxo0hfk678x94d4/XCAD.zip?rlkey=qdztml0gzfzoc0t5d16k71u76&e=1&dl=0)]
+*   **DRIVE**: [[Link](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction)]
+*   **CHASEDB1**: [[Link](https://www.kaggle.com/datasets/khoongweihao/chasedb1)]
+*   **30 XCA**: [[Link](https://github.com/Binjie-Qin/SVS-net)]
+*   **134 XCA**: [[Link](https://www.mdpi.com/2076-3417/9/24/5507)]
+
+## Training 🚀
+
+```bash
 python3 main.py -p train -c config/train.json
 ```
-## Test
 
-```
+## Testing 🧪
+
+```bash
 python3 main.py -p test -c config/test.json
 ```
 
-## Pre-trained Models
-We are uploading the pretrained models for evaluations at your premise......
+## Pre-trained Models 🧠
 
- <!-- You can download our pre-trained model of the XCAD dataset [here](https://drive.google.com/file/d/180xRhnpAsT6ZrM-FrMTZ6AVkqnfBBqYm/view?usp=sharing).
-Then, you can test the model by saving the pre-trained weights in the directory ./experiments/pretrained_model.
-To briefly test our method given the pre-trained model, we provided the toy example in the directory './data/'. -->
+Pre-trained models for evaluation will be available soon!
 
-## Citations
-```
-
+## Citations 🙏
 
 ```
+@article{your_citation,
+  title={CoATLAS: A generalisable Self-Supervised framework using Triple Attention Mechanism for Robust Vessel Segmentation Across Domains},
+  author={Author, A. and Author, B.},
+  journal={Journal Name},
+  year={2024}
+}
+```
 
-We utilise codes form [[NVIDIA](https://github.com/NVlabs/SPADE)], SSVS [[ SJTU Shanghai ](https://github.com/AISIGSJTU/SSVS)] , and C-DARL [[Boah Kim ](https://github.com/boahK/MEDIA_CDARL/tree/main)] we present them a token of appreciation for their generous efforts in open-sourcing their code. 
+We acknowledge the use of code from:
+
+*   **NVIDIA SPADE**: [[GitHub](https://github.com/NVlabs/SPADE)]
+*   **SSVS (SJTU Shanghai)**: [[GitHub](https://github.com/AISIGSJTU/SSVS)]
+*   **C-DARL (Boah Kim)**: [[GitHub](https://github.com/boahK/MEDIA_CDARL/tree/main)]
+
+We appreciate their contributions to open source.
