@@ -14,7 +14,7 @@ Official repository for "CoATLAS: A generalisable Self-Supervised framework usin
   <p>Triple Attention Block (TAB)</p>
 </div>
 
-## Tech Stack ⚙️
+## Platform and Environment⚙️
 
 *   **OS**: Ubuntu 🐧
 *   **Python**: >= 3.9 🐍
