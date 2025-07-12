@@ -14,6 +14,10 @@ Official repository for "CoATLAS: A generalisable Self-Supervised framework usin
   <p>Triple Attention Block (TAB)</p>
 </div>
 
+## Abstract 📝
+
+Medical image segmentation can potentially alleviate radiologists’ workload by accurately estimating stenosis severity.  We introduce CoATLAS, a self-supervised Coronary Angiography network that utilizes a Triple Attenetion encoder to enhance multi-scale feature representation learning for vessel Segmentation. The proposed encoder uses parallel convolutions with diverse kernel sizes to generate dynamic channel-wise attention weights, enabling efficient extraction of fine-grained structural information across scales. This design supports the segmentation of thin and elongated structures, such as vessels, while maintaining low model complexity and high stability during training. Unlike prior self-supervised approaches relying on diffusion models or adversarial learning—which often introduce training instability and computational overhead, CoATLAS provides a streamlined architecture with consistent convergence. The training objective integrates L1, clDICE, and BCE losses to simultaneously optimize region accuracy and boundary precision. We validate CoATLAS on a diverse set of datasets, including unseen coronary angiograms (134XCA, and 30XCA) and retinal vessel images (DRIVE, and STARE), demonstrating strong generalization across imaging domains. Results show that our architecture outperforms several recent self-supervised and at par with supervised baselines in terms of segmentation accuracy and robustness supported with their class attribution maps (CAM) for explainability. CoATLAS offers a practical, domain-agnostic solution for structure segmentation tasks, with potential applications in medical image analysis.
+
 ## Platform and Environment⚙️
 
 *   **OS**: Ubuntu 🐧
